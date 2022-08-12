@@ -1,0 +1,126 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333;
+}
+
+
+.menu {
+  list-style: none;
+  padding: 0;
+  justify-content: center;
+  display: flex
+}
+
+.menu li {
+  margin-left: 30px;
+  margin-right: 40px;
+}
+
+.menu a {
+  color: #333;
+  font-size: 24px;
+}
+
+
+.texto-mision {
+  color: #040;
+}
+
+a {
+  text-decoration: none;
+  color: #7744ff;
+}
+
+a:hover {
+  color: #13bbd4
+}
+
+h1 {
+  padding: 30px;
+  margin: 30px;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  margin: 10px 20px 15px;
+}
+
+.box {
+  text-align: center;
+  width: 150px;
+  padding: 2px;
+  margin: 5px 10px 1px;
+}
+
+.boxgruppe {
+  padding: 2px;
+  display: flex;
+  justify-content: center;
+}
+
+.gengruppe {
+  text-align: center;
+
+}
+
+img {
+  width: 160px;
+  border-radius: 50%;
+}
+
+.subgrupo {
+  text-align: center;
+  width: 250px;
+}
+
+.obergruppe {
+  padding: 1px 8px 1px;
+  justify-content: center;
+  display: flex
+}
+
+.grandgruppe {
+  padding: 1px 8px 1px;
+  justify-content: center;
+  margin: 45px 30px 30px 30px;
+}
+
+.feat {
+  text-align: center;
+  display: block;
+  padding: 2px;
+  margin: 20px;
+}
+
+.bluebox {
+  width: 150px;
+  height: 150px;
+  background-color: #d1e2f8;
+  border-radius: 12px;
+  margin: 10px;
+  border: 1px solid dodgerblue;
+  /*  border-style: solid;
+  border-color: dodgerblue;
+  border-width: 1px; */
+  text-align: center;
+}
+
+.precios {
+  display: flex;
+  justify-content: center;
+}
+
+.shortlist {
+  margin: 20px 0px;
+}
+
+/* h1,
+
+h2 {
+  color: #806;
+}
+
+h2+p {
+  color: #922
+} */
