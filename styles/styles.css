@@ -59,12 +59,29 @@ h2 {
   justify-content: center;
 }
 
+.boxgruppe button {
+  border-radius: 25px;
+  padding: 5px 12px;
+  margin: 10px;
+  background-color: blue;
+  border-color: transparent;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+.boxgruppe button:hover {
+
+  background-color: cornflowerblue;
+}
+
 .gengruppe {
   text-align: center;
 
 }
 
-img {
+.subgrupo img {
   width: 160px;
   border-radius: 50%;
 }
@@ -73,6 +90,7 @@ img {
   text-align: center;
   width: 250px;
 }
+
 
 .obergruppe {
   padding: 1px 8px 1px;
@@ -168,4 +186,20 @@ th {
   border-bottom: 1px solid rgb(207, 210, 214);
   padding: 10px;
 
+}
+
+.row {
+  margin: 40px;
+}
+
+.pright {
+  padding: 20px;
+}
+
+.right-column img {
+  width: 100%;
+}
+
+p {
+  margin-right: 20px;
 }
